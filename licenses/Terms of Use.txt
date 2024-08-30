@@ -1,0 +1,32 @@
+Terms of Use for Kripply's PDF Downloader
+
+Last Updated: 08/29/2024
+
+Welcome to Kripply's PDF Downloader (the "Software"), an open-source project that allows users to download PDFs. By using, modifying, or distributing the Software, you agree to comply with and be bound by the following terms and conditions (the "Terms of Use"). If you do not agree to these terms, please do not use the Software.
+
+1. License
+The Software is licensed under the Apache License 2.0. You can find a copy of the license in the LICENSE file included with the Software. By using the Software, you agree to the terms of this license.
+
+2. Permitted Use
+You are permitted to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the conditions of the open-source license under which the Software is released.
+
+3. Restrictions
+You agree not to use the Software:
+
+For any illegal or unauthorized purpose.
+To engage in any activity that violates the rights of others or applicable laws.
+To download, distribute, or store copyrighted material without proper authorization or permission.
+4. Modifications and Contributions
+You are encouraged to contribute to the development of the Software. By submitting any code or other content to the project, you grant the project maintainers a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to use, reproduce, modify, publish, and distribute your contributions under the same license as the Software.
+
+5. Disclaimer of Warranties
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+6. Limitation of Liability
+To the fullest extent permitted by law, in no event will the authors, copyright holders, or contributors be liable for any damages, including but not limited to direct, indirect, special, incidental, or consequential damages or losses that arise from your use or inability to use the Software, even if advised of the possibility of such damages.
+
+7. Indemnification
+You agree to indemnify and hold harmless the authors, contributors, and copyright holders from and against any and all claims, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to your use of the Software, your violation of these Terms of Use, or your violation of any rights of another.
+
+8. Changes to Terms of Use
+The maintainers of the Software reserve the right to modify these Terms of Use at any time. Any changes will be posted with an updated date at the top of this document. Your continued use of the Software after any such changes constitutes your acceptance of the new Terms of Use.

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Kripply's PDF Downloader</title>
+    <style>
+        body {
+            font-family: "Special Elite", system-ui;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1c1c1c;
+        }
+        .special-elite-regular {
+          font-family: "Special Elite", system-ui;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+
+        .container {
+            width: 75%; /* Set container width to 3/4 of the screen */
+            max-width: 800px; /* Set a maximum width for larger screens */
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            color: white;
+            background-color: #333230;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"] {
+            width: 90%; /* Set input width slightly smaller than container */
+            max-width: 700px; /* Set a maximum width for input */
+            background-color: #272727;
+	    color: #fcfcfc;
+            padding: 10px;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+
+        input[type="text"]:focus {
+            border-color: #fcfcfc;
+            box-shadow: 0 0 8px #fcfcfc;
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: none;
+            background-color: #a6a6a6;
+            color: #333230;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1c1c1c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Kripply's PDF Downloader</h2>
+        <form id="redirectForm">
+            <input type="text" id="urlInput" placeholder="https://example.com/ebook.pdf">
+            <button type="button" onclick="redirectToUrl()">Go</button>
+        </form>
+    </div>
+
+    <script>
+        // Attach event listener to the form to handle 'Enter' key
+        document.getElementById('redirectForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form's default submission behavior
+            redirectToUrl(); // Call the redirect function
+        });
+
+        function redirectToUrl() {
+            let url = document.getElementById('urlInput').value.trim();
+            if (url) {
+                // Check if the URL starts with "http://" or "https://"
+                if (!/^https?:\/\//i.test(url)) {
+                    url = 'http://' + url;
+                }
+                window.location.href = url;
+            } else {
+                alert('Please enter a valid URL.');
+            }
+        }
+    </script>
+</body>
+</html>
