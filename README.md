@@ -1,6 +1,6 @@
 # Kripply's PDF Downloader
 
-Download PDF files that are hosted using PDFJS
+This software allows you to download PDF files that are hosted using PDFJS / PDF.js
 
 Public Release V1.0.0 09/01/2024
 
@@ -21,5 +21,5 @@ Adjusting the delay tells the downloader to wait longer for the page to render b
 At the end of the download, the PDF will be compiled and placed in the "PDF - OUTPUT" folder.
 
 Note:
-You can either compile a PDF from the raw (uncompressed) pages or compress them.
-If you plan on using an OCR tool for text recognition, it is recommended to leave the pages uncompressed.
+By using this software you are agreeing to the Terms of Use.
+Only download files you have access and authority to download.
