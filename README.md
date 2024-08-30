@@ -4,8 +4,11 @@ Download PDF files that are hosted using PDFJS
 
 Public Release V1.0.0 09/01/2024
 
-HOW TO START THIS PROJECT: With java installed, open a command line in the KripplysPDFDownloader folder. 
-Type "java -jar KripplysPDFDownlaoder.jar" hit enter to run.
+HOW TO START THE PROGRAM: With java installed, open a command line in the KripplysPDFDownloader folder. 
+<br>In your command line type:
+>java -jar KripplysPDFDownloader.jar
+
+<br> hit ***ENTER*** to start the program.
 
 AUTHORS: Kripply.com
 
